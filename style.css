@@ -1,0 +1,19 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-link > ul{
+
+display: flex;
+list-style: none;
+padding: 10px;
+
+}
+.nav-link,li{
+
+margin: 10px;
+
+}
