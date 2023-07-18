@@ -74,7 +74,84 @@ font-weight: 500;
 
 }
 
+.banner{
 
+margin-top: 20px;
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+
+}
+
+.banner-heading{
+
+    width: 100%;
+    background-image: url(images/Group\ 14.png);
+    
+
+}
+
+.banner-img,img{
+
+width: 65%;
+margin-left:0px;
+
+
+}
+
+.banner-h2{
+
+    color: #0B0223;
+text-align: center;
+font-size: 40px;
+font-weight: 600;
+}
+
+.banner-h1{
+
+    text-align: center;
+    font-size: 90px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+}
+
+.banner-para{
+
+    margin-left: 110px; 
+    color:#534C64;
+    font-size: 20px;
+
+}
+
+
+.btn{
+
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+margin-left: 20%;
+
+
+}
+
+.button{
+
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+}
 
 
 
@@ -93,7 +170,7 @@ font-weight: 500;
         flex-direction: column;
         height: 20%;
         width:100%;
-        margin-top: 30px;
+    
     }
 
     .nav-link > ul{
@@ -101,5 +178,58 @@ font-weight: 500;
         flex-direction: column;
 
         }
+
+        .banner{
+
+            flex-direction: column-reverse;
+        }
+
+        .banner-heading{
+
+            margin-top: 40px;
+
+        }
+        .banner-h1{
+
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .banner-h2{
+
+            margin-top: 20px;
+            margin-bottom: 5px;
+
+        }
+
+        .banner-para{
+
+            margin-left: 20px;
+        }
+
+        .button{
+
+            padding: 10px 20px;
+            
+        
+        }
+
+        .btn{
+
+            padding:10px;
+            margin-left:20px;
+            padding: 10px 20px;
+            
+            
+            }
+            
+        
+
+        .banner-img,img{
+
+            width: 90%;
+            margin-top: 20px;
+        }
+
     
 }
