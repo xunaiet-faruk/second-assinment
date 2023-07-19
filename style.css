@@ -306,13 +306,42 @@ width: 20%;
 .footer{
 
 width:1280px;
-height:300px;
+height:600px;
 background-color: #0B0223;
 margin-top: 100px;
 color:white;
 
 }
 
+.footer,a{
+
+    text-align: center;
+    padding: 60px;
+    color:#FFFFFF;
+text-decoration: none;
+font-weight: 800;
+font-size: 1rem;
+}
+
+.link{
+
+    margin-top: 40px;
+}
+
+.icon-div,.fa-brands{
+
+    padding: 30px;
+    
+
+}
+
+.list{
+
+    display: inline-block;
+    margin-bottom: 40px;
+    color:gray;
+
+}
 
 
 
