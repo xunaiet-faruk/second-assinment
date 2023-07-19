@@ -204,8 +204,8 @@ margin-bottom: 30px;
 
 .div-card:hover{
 
+    filter: brightness(60%);
 
-    filter: brightness(50%);
 }
 
 .card-p{
