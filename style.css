@@ -273,6 +273,7 @@ height: 315px;
 position: relative;
 bottom: 180px;
 right: 100px;
+border-radius: 8px;
 }
 
 
@@ -359,4 +360,45 @@ right: 100px;
             flex-direction: column;
         }
     
+        .div-title{
+
+            flex-direction: column;
+
+    margin-top: 40px;
+    width:80%;
+
+    
+        }
+
+        .div-heading{
+
+            width:100%;
+            margin-bottom: 60px;
+            margin-left: 60px;
+            margin-top: 20px;
+            
+            }
+
+            .div-img{
+
+                width: 100%;
+            margin-left: 170px;
+            
+                
+                }
+
+                
+.heading-img{
+
+    width:40%;
+height: 40%;
+position: relative;
+bottom: 100px;
+right: 50px;
+
+}
+
+                
+
+
 }
